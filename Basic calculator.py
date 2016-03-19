@@ -10,27 +10,27 @@ while running:
     if cmd == 1:
         print("Addition")
         first = int(input("Enter first number :"))
-        secund = int(input("Enter secund number :"))
-        result = first + secund
-        print(first ,'+' ,secund ,'=' , result)
+        secund = int(input("Enter second number :"))
+        result = first + second
+        print(first ,'+' ,second ,'=' , result)
     elif cmd == 2:
         print("Subtraction")
         first = int(input("Enter first number :"))
-        secund = int(input("Enter secund number :"))
-        result = first - secund
-        print(first ,"-" ,secund ,"=" , result)
+        secund = int(input("Enter second number :"))
+        result = first - second
+        print(first ,"-" ,second ,"=" , result)
     elif cmd == 3:
         print("Mmltiplication")
         first = int(input("Enter first number :"))
-        secund = int(input("Enter secund number :"))
-        result = first * secund
-        print(first ,"*" ,secund ,"=" , result)
+        secund = int(input("Enter second number :"))
+        result = first * second
+        print(first ,"*" ,second ,"=" , result)
     elif cmd == 4:
         print("Division")
         first = int(input("Enter first number :"))
-        secund = int(input("Enter secund number :"))
-        result = first / secund
-        print(first ,"/" ,secund ,"=" , result)
+        secund = int(input("Enter second number :"))
+        result = first / second
+        print(first ,"/" ,second ,"=" , result)
     elif cmd == 5:
         print("Quit!")
         running = False
